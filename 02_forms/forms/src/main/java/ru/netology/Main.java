@@ -122,7 +122,6 @@ public class Main {
     out.flush();
   }
 
-  // from google guava with modifications
   private static int indexOf(byte[] array, byte[] target, int start, int max) {
     outer:
     for (int i = start; i < max - target.length + 1; i++) {
